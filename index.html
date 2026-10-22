@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ragineni Chandrika | Portfolio</title>
+    <style>
+        :root {
+            --primary: #2563eb;
+            --text-main: #1f2937;
+            --text-muted: #4b5563;
+            --bg-light: #f3f4f6;
+            --card-bg: #ffffff;
+            --border: #e5e7eb;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: var(--text-main); background-color: #fafafa; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 2rem 1rem; }
+        header { text-align: center; background: var(--card-bg); padding: 3rem 1.5rem; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); margin-bottom: 2rem; border: 1px solid var(--border); }
+        header h1 { font-size: 2.5rem; color: #111827; margin-bottom: 0.5rem; }
+        header p { color: var(--text-muted); font-size: 1.1rem; margin-bottom: 1.5rem; max-width: 700px; margin-left: auto; margin-right: auto; }
+        .contact-info { display: flex; flex-wrap: wrap; justify-content: center; gap: 1.5rem; font-size: 0.95rem; }
+        .contact-info a, .contact-info span { color: var(--text-main); text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem; }
+        section { background: var(--card-bg); padding: 2rem; border-radius: 12px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); margin-bottom: 2rem; border: 1px solid var(--border); }
+        section h2 { font-size: 1.4rem; color: #111827; border-bottom: 2px solid var(--bg-light); padding-bottom: 0.5rem; margin-bottom: 1.5rem; text-transform: uppercase; }
+        .timeline-item { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+        .timeline-header { display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; margin-bottom: 0.5rem; }
+        .timeline-title { font-weight: 700; font-size: 1.1rem; color: #111827; }
+        .timeline-meta { font-size: 0.85rem; color: var(--text-muted); background: var(--bg-light); padding: 0.2rem 0.6rem; border-radius: 20px; }
+        .timeline-sub { color: var(--primary); font-weight: 600; font-size: 0.95rem; margin-bottom: 0.5rem; }
+        .timeline-desc { font-size: 0.95rem; color: var(--text-muted); }
+        .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .badge { background: var(--bg-light); color: var(--text-main); padding: 0.4rem 0.8rem; border-radius: 6px; font-size: 0.9rem; border: 1px solid var(--border); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Ragineni Chandrika</h1>
+            <p>Aspiring Computer Science professional leveraging technical proficiency and problem-solving abilities.</p>
+            <div class="contact-info">
+                <span>📞 +91 8374276328</span>
+                <a href="mailto:chandrikaragineni@gmail.com">✉️ chandrikaragineni@gmail.com</a>
+                <a href="https://linkedin.com" target="_blank">🔗 LinkedIn</a>
+            </div>
+        </header>
+
+        <section>
+            <h2>Internships & Projects</h2>
+            <div class="timeline-item">
+                <div class="timeline-title">Database Intern - TCS iON</div>
+                <p class="timeline-desc">Managed SQL databases and optimized queries.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-title">E-Commerce Web App</div>
+                <p class="timeline-desc">Engineered a full-stack platform with authentication and persistent cart operations.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills & Education</h2>
+            <div class="badges" style="margin-bottom: 1.5rem;">
+                <span class="badge">C</span><span class="badge">Java</span><span class="badge">Python</span><span class="badge">HTML/CSS</span><span class="badge">SQL</span><span class="badge">MongoDB</span>
+            </div>
+            <div class="timeline-item" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+                <div class="timeline-title">B.Tech (CSE) | Tirumala Engineering College</div>
+                <div class="timeline-meta" style="display:inline-block; margin-top:0.25rem;">CGPA: 8.96</div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
